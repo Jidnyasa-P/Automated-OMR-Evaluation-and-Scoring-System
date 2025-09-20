@@ -1,0 +1,9 @@
+@echo off 
+echo 🧪 Testing OMR System... 
+cd /d "%~dp0" 
+call omr_env\Scripts\activate.bat 
+echo Testing imports... 
+python -c "import fastapi, streamlit, requests, pandas, plotly; print('✅ All imports successful')" 
+echo Testing backend connection... 
+python -c "import requests; r=requests.get('http://localhost:8000/', timeout=2); print('✅ Backend responsive' if r.status_code==200 else '❌ Backend not running')" 
+pause 
