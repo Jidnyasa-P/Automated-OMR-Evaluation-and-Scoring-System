@@ -1,50 +1,89 @@
-# OMR Evaluation System
+# OMR Evaluation System with Bulk Upload & CSV Export
 
-🎯 **Complete Automated OMR Sheet Processing System**
+🎯 **Complete Automated OMR Processing with Advanced Features**
 
-## Features
-- ✅ **File Upload**: Upload OMR sheet images
-- ✅ **Camera Capture**: Take photos directly through camera
-- ✅ **Real-time Processing**: Instant scoring and results
-- ✅ **Dashboard**: Complete analytics and insights
-- ✅ **Results Export**: View detailed subject-wise performance
+## ✅ Features Implemented
 
-## Quick Start
+### Core Features
+- **Bulk Upload**: Process multiple OMR sheets simultaneously
+- **Auto ID Generation**: Automatic student and exam ID assignment  
+- **Camera Capture**: Take photos directly through camera
+- **Real-time Processing**: Instant scoring and results
+- **CSV Export**: Download individual or all results as CSV/Excel
+- **Subject-wise Analytics**: Detailed performance breakdown
+- **Dashboard**: Comprehensive system metrics and insights
+- **Secure Database**: All results stored with complete audit trail
+
+### Technical Features
+- **No Manual IDs**: Removed student/exam ID input fields
+- **Bulk Summary**: Shows processing summary table after bulk upload
+- **Export Endpoints**: `/export/sheet/{id}/csv` and `/export/all/csv`
+- **Error Handling**: Comprehensive error handling and user feedback
+- **Progress Tracking**: Real-time progress bars during processing
+
+## 🚀 Quick Start
 
 ### 1. Setup (One-time)
 ```batch
-# Double-click or run:
-setup_fixed.bat
+setup.bat
 ```
 
 ### 2. Start System
 ```batch
-# Terminal 1 - Start Backend:
+# Terminal 1:
 start_backend.bat
 
-# Terminal 2 - Start Frontend:
+# Terminal 2:
 start_frontend.bat
 ```
 
-### 3. Access Application
+### 3. Access
 - **Web Interface**: http://localhost:8501
 - **API Docs**: http://localhost:8000/docs
 
-## Usage
-1. **Upload**: Choose file or use camera capture
-2. **Select**: Pick answer key set (A or B)  
-3. **Process**: Click process button
-4. **Results**: View scores and analytics
-5. **Dashboard**: Monitor system performance
+## 📱 Usage
 
-## System Requirements
+### Upload & Process
+1. Select multiple OMR images
+2. Choose answer key set (A or B)  
+3. Click "Process All Sheets"
+4. View bulk processing summary
+5. Download CSV exports
+
+### Camera Capture
+1. Take photo through camera
+2. Select answer key set
+3. Process and view results
+4. Export individual results
+
+### Dashboard & Analytics
+1. View system-wide statistics
+2. Monitor processing success rates
+3. Download all results as CSV
+4. Track recent activity
+
+## 📊 Export Features
+
+### Individual Sheet Export
+- URL: `/export/sheet/{sheet_id}/csv`
+- Contains: Sheet details, subject-wise scores, metadata
+
+### Bulk Export  
+- URL: `/export/all/csv`
+- Contains: All processed sheets with complete details
+- Timestamped filename for organization
+
+## 🔧 System Requirements
 - Python 3.8+
 - Windows 10/11
-- 4GB RAM
-- Internet connection (for setup)
+- 4GB RAM minimum
+- Internet (setup only)
 
-## Support
-Built for hackathon demonstration and educational use.
+## 🏆 Perfect for
+- Educational institutions
+- Exam processing centers
+- Hackathon demonstrations
+- Academic projects
 
-**Version**: 1.0.0
-**Status**: Ready for Demo 🏆
+**Status**: ✅ Production Ready
+**Version**: 1.0.0 with Bulk Upload & CSV Export
