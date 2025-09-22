@@ -1,4 +1,4 @@
-![Scanalyze-logo](https://drive.google.com/file/d/1yvaXnZUMxHHw5mbHiYen2ZYn2h_xoKy1/view?usp=drivesdk) # Scanalyze - Complete Automated OMR Processing with Advanced Features
+! [Scanalyze-logo](https://drive.google.com/file/d/1yvaXnZUMxHHw5mbHiYen2ZYn2h_xoKy1/view?usp=drivesdk) # Scanalyze - Complete Automated OMR Processing with Advanced Features
 
 ## 🎯 Problem Statement<br>
 Manual OMR sheet evaluation is slow, error-prone, and difficult to scale for large exams. Educational institutions need a reliable, automated solution to quickly process answer sheets, minimize human errors, and provide instant analytics.
