@@ -1,4 +1,4 @@
-# OMR Evaluation System with Bulk Upload & CSV Export
+# Scanalyze - OMR Evaluation System 
 
 🎯 **Complete Automated OMR Processing with Advanced Features**
 
@@ -15,7 +15,6 @@
 - **Secure Database**: All results stored with complete audit trail
 
 ### Technical Features
-- **No Manual IDs**: Removed student/exam ID input fields
 - **Bulk Summary**: Shows processing summary table after bulk upload
 - **Export Endpoints**: `/export/sheet/{id}/csv` and `/export/all/csv`
 - **Error Handling**: Comprehensive error handling and user feedback
@@ -84,6 +83,15 @@ start_frontend.bat
 - Exam processing centers
 - Hackathon demonstrations
 - Academic projects
+
+## 📋 Example Usage
+-Upload OMR sheet images OR capture using camera
+-Select answer key set (A/B)
+-Click Process
+-View individual and batch results, export CSV
+
+## Try it Online
+*Frontend Demo (Hugging Face)[https://huggingface.co/spaces/Jidnyasa-Patil/Scanalyze-OMR-System]*
 
 **Status**: ✅ Production Ready
 **Version**: 1.0.0 with Bulk Upload & CSV Export
