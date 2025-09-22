@@ -1,6 +1,13 @@
-# Scanalyze - OMR Evaluation System 
+# Scanalyze - **Complete Automated OMR Processing with Advanced Features
 
-🎯 **Complete Automated OMR Processing with Advanced Features**
+**🎯 Problem Statement**
+Manual OMR sheet evaluation is slow, error-prone, and difficult to scale for large exams. Educational institutions need a reliable, automated solution to quickly process answer sheets, minimize human errors, and provide instant analytics.
+
+**🛠️ Approach**
+Scanalyze uses AI-powered image processing and machine learning techniques to automatically detect, evaluate, and score OMR sheets. The web-based system features:
+- Frontend: Streamlit for interactive UI (upload, camera, results, dashboard)
+- Backend: FastAPI for processing, scoring, exports (deployed on Hugging Face Spaces)
+- Cloud deployable and accessible for all users
 
 ## ✅ Features Implemented
 
@@ -91,7 +98,7 @@ start_frontend.bat
 -View individual and batch results, export CSV
 
 ## Try it Online
-*Frontend Demo (Hugging Face)[https://huggingface.co/spaces/Jidnyasa-Patil/Scanalyze-OMR-System]*
+*Frontend Demo (Hugging Face){https://huggingface.co/spaces/Jidnyasa-Patil/Scanalyze-OMR-System}*
 
 **Status**: ✅ Production Ready
 **Version**: 1.0.0 with Bulk Upload & CSV Export
